@@ -165,7 +165,7 @@
       <dmnFilePath>src/main/resources/credit-dispute-simple-input-pmml1.dmn</dmnFilePath>
       <type>DMN</type>
       <dmnNamespace>http://entando/dispute</dmnNamespace>
-      <dmnName>creditDisputeSimpleInput</dmnName>
+      <dmnName>creditDisputeSimpleInputPmml1</dmnName>
       <skipFromBuild>false</skipFromBuild>
     </simulationDescriptor>
     <scenarios>
@@ -235,7 +235,7 @@
               <name>0|5</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">&gt; 1 , &lt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -246,7 +246,7 @@
               <name>0|6</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">&gt; 2 , &lt; 3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -416,12 +416,12 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
-            <rawValue class="string">4</rawValue>
+            <rawValue class="string">&gt; 2 , &lt; 3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">3</rawValue>
+            <rawValue class="string">&gt; 5</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
@@ -456,7 +456,7 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[4]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[4]/expressionIdentifier"/>
-            <rawValue class="string">300</rawValue>
+            <rawValue class="string">100</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[5]/factIdentifier"/>
@@ -466,12 +466,12 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
-            <rawValue class="string">2</rawValue>
+            <rawValue class="string">&gt; 1 , &lt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">2</rawValue>
+            <rawValue class="string">&gt; 2 , &lt; 3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
@@ -516,12 +516,12 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
-            <rawValue class="string">2</rawValue>
+            <rawValue class="string">&gt; 1 , &lt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">5</rawValue>
+            <rawValue class="string">&gt; 5</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
@@ -556,7 +556,7 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[4]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[4]/expressionIdentifier"/>
-            <rawValue class="string">300</rawValue>
+            <rawValue class="string">100</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[5]/factIdentifier"/>
@@ -566,12 +566,12 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">&gt; 1 , &lt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">&gt; 1 , &lt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
@@ -616,12 +616,12 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">&gt; 1 , &lt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">5</rawValue>
+            <rawValue class="string">&gt; 5</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
@@ -666,14 +666,17 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
+            <rawValue class="string">&lt; 1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
+            <rawValue class="string">&lt; 1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/expressionIdentifier"/>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[9]/factIdentifier"/>
@@ -713,12 +716,12 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
-            <rawValue class="string">0</rawValue>
+            <rawValue class="string">&gt; 0 , &lt; 1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">5</rawValue>
+            <rawValue class="string">&gt; 5</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
