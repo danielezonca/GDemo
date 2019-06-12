@@ -180,6 +180,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
+            <rawValue class="string">Processed automatically</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -201,7 +202,7 @@
               <name>0|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;TEST&quot;</rawValue>
+            <rawValue class="string">100</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -234,7 +235,7 @@
               <name>0|5</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">0</rawValue>
+            <rawValue class="string">&lt; 10</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -245,7 +246,7 @@
               <name>0|6</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">&lt; 20</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -256,7 +257,7 @@
               <name>0|7</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -384,6 +385,56 @@
           <dmnName>creditDisputeSimpleInputPmml1</dmnName>
           <skipFromBuild>false</skipFromBuild>
         </simulationDescriptor>
+      </Scenario>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue/expressionIdentifier"/>
+            <rawValue class="string">Not processed automatically</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[2]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[2]/expressionIdentifier"/>
+            <rawValue class="string">30</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[3]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[3]/expressionIdentifier"/>
+            <rawValue class="string">100</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[4]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[4]/expressionIdentifier"/>
+            <rawValue class="string">30000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[5]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[5]/expressionIdentifier"/>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/expressionIdentifier"/>
+            <rawValue class="string">&lt; 10</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
+            <rawValue class="string">&gt; 20</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/expressionIdentifier"/>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[9]/factIdentifier"/>
+            <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[9]/expressionIdentifier"/>
+            <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+        <simulationDescriptor reference="../../Scenario/simulationDescriptor"/>
       </Scenario>
     </scenarios>
   </simulation>
