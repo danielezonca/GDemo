@@ -162,7 +162,7 @@
           <genericTypes/>
         </FactMapping>
       </factMappings>
-      <dmnFilePath>src/main/resources/credit-dispute-simple-input.dmn</dmnFilePath>
+      <dmnFilePath>src/main/resources/credit-dispute-simple-input-pmml1.dmn</dmnFilePath>
       <type>DMN</type>
       <dmnNamespace>http://entando/dispute</dmnNamespace>
       <dmnName>creditDisputeSimpleInput</dmnName>
