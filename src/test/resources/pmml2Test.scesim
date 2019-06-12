@@ -165,7 +165,7 @@
       <dmnFilePath>src/main/resources/credit-dispute-simple-input-pmml2.dmn</dmnFilePath>
       <type>DMN</type>
       <dmnNamespace>http://entando/dispute</dmnNamespace>
-      <dmnName>creditDisputeSimpleInputPmml1</dmnName>
+      <dmnName>creditDisputeSimpleInputPmml2</dmnName>
       <skipFromBuild>false</skipFromBuild>
     </simulationDescriptor>
     <scenarios>
@@ -411,7 +411,7 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[5]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[5]/expressionIdentifier"/>
-            <rawValue class="string">1</rawValue>
+            <rawValue class="string">100</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[6]/factIdentifier"/>
@@ -421,7 +421,7 @@
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/factIdentifier"/>
             <expressionIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[7]/expressionIdentifier"/>
-            <rawValue class="string">&gt; 20</rawValue>
+            <rawValue class="string">&gt; 2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier reference="../../../../Scenario/factMappingValues/FactMappingValue[8]/factIdentifier"/>
